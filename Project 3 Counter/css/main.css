@@ -1,0 +1,38 @@
+.box {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .child {
+    background-color: #eee;
+    box-shadow: 0 2px 20px black;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+.box .child h2 {
+    margin: 0 0 20px;
+    font-size: 30px;
+}
+.box .child span {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    color: green;
+}
+.box .child div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.box .child div button {
+    padding: 10px;
+    cursor: pointer
+}
+
+
+
+

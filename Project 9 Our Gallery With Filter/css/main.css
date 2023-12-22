@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 100px auto 20px;
+    width: fit-content;
+}
+
+ul li {
+    background-color: #ddd;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+ul li.active {
+    background-color: red;
+    color: white;
+}
+
+.gallery {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+.gallery img {
+    width: calc(20% - 20px);
+    display: block;
+}

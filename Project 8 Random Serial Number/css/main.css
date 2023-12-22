@@ -1,0 +1,27 @@
+.serial {
+    background-color: #eee;
+    margin: 50px auto 0;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.generate {
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+    background-color: #ff5722;
+    color: white;
+    padding: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
